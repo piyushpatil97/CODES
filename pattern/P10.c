@@ -8,8 +8,8 @@
 			scanf("%d",&y);
 
 
-			for(int i=0;i<=x;i++){
-				for (int j=0;j<=y;j++){
+			for(int i=1;i<=x;i++){
+				for (int j=1;j<=y;j++){
 
 					if (i%2==0){
 						printf("* \t");

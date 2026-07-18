@@ -7,7 +7,8 @@
          float rent;
 
 	 printf("Enter wing: \n");
-         scanf("%c",&wing);// this is one method that wrting string at first but it depends on the user that what he                             wants so this method is not proffesional
+         scanf("%c",&wing);// this is one method that writing string at first but it depends on the user that what he                                               wants so this method is not proffesional
+			   
 
          printf("Enter flat no : \n");
          scanf("%d",&flatno);

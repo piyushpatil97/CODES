@@ -7,5 +7,4 @@ void main (){
 	int *ptr; // wild pointer
 	
 	ptr = &x; // referencing a pointer;
-
 }
