@@ -1,15 +1,15 @@
 class Student{
 
-	int rollNo;
+	int age;
 
 	String name;
 
 
 	// Parameterized Constructor
 
-	Student(String name,int rollNo){
+	Student(String name,int age){
 
-		this.rollNo=rollNo;
+		this.age=age;
 		this.name=name;
 	}
 
@@ -17,14 +17,14 @@ class Student{
 
 	Student(){
 		System.out.println("Name: " + name);
-		System.out.println("RollNo: " + rollNo);
+		System.out.println("RollNo: " + age);
 	}
 
 	// COPY CONSTRUCTOR
 	
 	Student(Student s3){
 
-		this.rollNo=rollNo;
+		this.age=age;
                 this.name=name;
 	
 	}
@@ -32,27 +32,27 @@ class Student{
 	void display(){
 
 		System.out.println("Name: " + name);
-		System.out.println("RollNo: " + rollNo);
+		System.out.println("RollNo: " + age);
 
 	}
 	
 	public static void main(String[] args){
 
-		System.out.println("Student 1");
-		Student s1=new Student("Piyush",2607);
+		System.out.println("PERSON 1");
+		Student s1=new Student("Piyush",20);
 
 		s1.display();
 		System.out.println();
 
-		System.out.println("Student 2");
-		Student s2=new Student("vaishnavi",2204);
+		System.out.println("PERSON 2");
+		Student s2=new Student("vaishnavi",20);
 		
 		s2.display();
 
 		System.out.println();
 		
-		System.out.println("Student 3");
-		Student s3=new Student("EXSHUUU",252);
+		System.out.println("PERSON 3");
+		Student s3=new Student("EXSHUUU",20);
 	
 		s3.display();
 
