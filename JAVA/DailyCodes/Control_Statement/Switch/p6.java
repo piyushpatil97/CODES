@@ -30,3 +30,8 @@ class Switch {
 		}
 	}
 }
+
+//JAVA 25 ERROR: primitive patterns are a preview feature and are disabled by default.
+//JAVA 8 ERROR: incompatible types: possible lossy conversion from double to int
+                //switch(x){
+               //       ^
