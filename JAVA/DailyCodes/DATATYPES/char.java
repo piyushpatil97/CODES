@@ -1,4 +1,4 @@
-class CharDemo{
+Class CharDemo{
 
 	public static void main(String[] args){
 

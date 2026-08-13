@@ -6,4 +6,12 @@ class INTDEMO{
 
 		float numFloat= numInt;
 
+		System.out.println("numFloat");
 
+		numFloat=20.005;
+
+		System.out.println("numFloat");
+	}
+}
+
+		
